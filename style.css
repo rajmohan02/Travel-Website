@@ -1,0 +1,209 @@
+
+.main {
+    font-family: 'Lobster', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+    background-color: bisque;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin: 7px;
+}
+h2{
+    font-size: 30px;
+    padding-left: 25px;
+}
+.logo img {
+    width: 180px;
+    height: 150px;
+}
+
+nav {
+    flex-grow: 1; /* Allow the navigation to take up remaining space */
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+nav ul {
+    
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin-left:350px;
+    font-family: 'Lobster', sans-serif ;
+    font-size: 20px;
+}
+
+nav li {
+    margin-right: 40px; /* Adjust the margin between list items */
+}
+nav li h5 {
+    margin: 0;
+    font-size: 20px; 
+    color: #555;
+}
+
+/* --------------------------------------------------------------------------------------------- */
+/* About us */
+#text-about{
+    font-family: 'Lobster', sans-serif;
+    margin-left: 200px;
+    display: block;
+}
+
+#line{
+    border-left: 6px solid green;
+    height: 400px;
+    display: block;
+    margin-top: 80px;
+
+}
+
+#about-content{
+    font-family: 'Lobster', sans-serif;
+    margin-left: 200px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+  .icon .fa{
+    color: #836400;
+    margin:  13px;
+    cursor: pointer;
+    padding: 18px ;
+  } 
+  
+nav li h5:hover {
+    color: #3498db;
+}
+nav li a{
+    text-decoration: none;
+}
+nav li.menu-icon:hover {
+    color: #3498db;
+}
+
+
+/* Hero Section */
+ .content{
+    padding-top: 30px;
+ }
+    .section-subtitle {
+        font-family:'Comforter Brush', cursive;
+        color: hsl(47, 98%, 50%);
+        font-size: 3rem;}
+.content h1 {
+    color: hsl(222, 46%, 17%);
+    font-size: 3.2rem;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 500;
+    line-height: 1;
+    max-width: 15ch;
+    margin-bottom: 0px;   }      
+    
+.Hero {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+  }
+.Hero img{
+  margin: 36px;
+  margin-left: 90px;
+  margin-right:60px;
+  margin-bottom: 0px ;
+}
+ 
+
+
+/* About Content */
+.containertext-center{
+    justify-content: space-evenly;
+    display: flex;
+    margin: 40px;
+}
+#text-more{
+    margin-left: 0;
+    display: block;
+    font-size: 30px;
+}
+#about-content{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+/* ---------------------------------------------------------------------- */
+/* Login Page */
+
+#login-form{
+    background-image: url("./log.jpeg");
+    background-repeat: no-repeat;
+    background-position: 1200px 150px;
+    background-size: 300px;
+    height: 650px;
+
+}
+
+#contact-form{
+    border: 2px solid aqua;
+    height: 450px;
+    width: 600px;
+    padding-top: 100px;
+    border-radius: 25px;
+}
+td{
+    border-collapse: separate;
+    width : 250px;
+}
+table{
+    border-collapse: separate;
+    border-spacing: 10px 25px;
+    
+}
+tr{
+    border-collapse: separate;
+    border-spacing: 0px 25px;
+}
+
+th{
+    text-align: center;
+}
+/* ------------------------------------------------------------------------------------ */
+/* Booking form */
+
+#booking{
+    background-image: url("./log.jpeg");
+    background-repeat: no-repeat;
+    background-position: 1200px 150px;
+    background-size: 300px;
+    height: 650px;
+}
+
+#book-form{
+    border: 2px solid aqua;
+    height: 620px;
+    width: 700px;
+    padding-top: 100px;
+    border-radius: 25px;
+}
+
+/* ------------------------------------------------------------------------------------ */
+footer{
+    padding-top: 40px;
+    font-family: 'Lobster', sans-serif;
+    background-color: #304146;
+    color: white;
+}
+footer a{
+    color: white;
+}
+
+footer h5{
+    color: aqua;
+}
+#quick{
+    padding-left: 300px;
+}
